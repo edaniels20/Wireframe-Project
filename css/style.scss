@@ -1,0 +1,68 @@
+$mainColor: lightblue;
+
+@mixin inline {
+    display: inline;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.topWrapper {
+    background-color: $mainColor;
+}
+.topNav {
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+}
+.topNav li {
+    @include inline;
+}
+.logo {
+    margin: 8px 0;
+}
+.shoppingCart {
+    margin: 20px 0 0 0;
+    text-align: right;
+}
+.shoppingCart span {
+    padding: 8px;
+    background-color: $mainColor;
+    border-radius: 5px;
+}
+.searchBar {
+    border: solid black 1px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.searchBar input {
+    border: none;
+}
+.searchBar a {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.dropdownMenu {
+    display: none;
+    list-style: none;
+    padding-left: 0;
+}
+.dropdownBurger {
+    font-size: 20px;
+    background-color: darkgrey;
+}
+.menuBackground {
+    color: rgb(0, 89, 255);
+    background-color: $mainColor;
+    padding: 6px;
+}
+.carousel {
+    margin-top: 20px;
+}
+.banner {
+    margin-top: 20px;
+}
+.bannerBottom {
+    margin-bottom: 20px;
+}
