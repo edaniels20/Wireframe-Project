@@ -4,6 +4,10 @@ $mainColor: lightblue;
     display: inline;
 }
 
+.center{
+    text-align: center;
+}
+
 .centerText {
     text-align: center;
 }
@@ -60,9 +64,31 @@ $mainColor: lightblue;
 .carousel {
     margin-top: 20px;
 }
+.productsTablet {
+    display: none;
+}
 .banner {
     margin-top: 20px;
 }
 .bannerBottom {
     margin-bottom: 20px;
+}
+.socialMedia {
+    list-style: none;
+    padding-left: 0;
+}
+.socialMedia li {
+    display: inline;
+}
+.productsImage {
+    margin-right: 0;
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .products {
+        display: none;
+    }
+    .productsTablet {
+        display: block;
+    }
 }
